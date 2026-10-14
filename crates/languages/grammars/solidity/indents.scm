@@ -5,12 +5,10 @@
   (function_body)
   (block_statement)
   (yul_block)
-] @indent.begin
-
-"}" @indent.end
+] @indent
 
 [
+  "}"
   ")"
   "]"
-  "}"
-] @indent.branch
+] @outdent
